@@ -1,0 +1,6 @@
+playwright==1.44.0
+asyncpg
+cryptography
+httpx
+beautifulsoup4
+lxml
