@@ -43,3 +43,14 @@ def get_coaches():
             {"id": 264, "name": "Sage King", "team": "Wagga-Wagga Rams"}
         ]
     }
+
+@app.get("/admin")
+def get_admin():
+    return {
+        "admin": {
+            "id": 1,
+            "name": "Benjamin McKeever",
+            "role": "Commissioner",
+            "permissions": "all"
+        }
+    }
